@@ -1,0 +1,1217 @@
+{
+  "fecha": "2026-10-27T13:35:15.284490-05:00",
+  "python": "3.12.14",
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "pruebas": 93,
+  "fallos": 0,
+  "errores": 0,
+  "omitidas": 0,
+  "segundos": 0.612,
+  "casos": [
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_01_hola_mundo",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_02_suma",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_03_promedio",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_04_par_impar",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_05_mayor",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_06_alternativas",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_07_tabla",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_08_suma_ciclo",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_09_factorial",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_academico_10_funcion",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, inputs, expected = case\n        self.assertEqual(run_fixture(self.forward(source), inputs), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_all_python_math",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_all_python_math(self):\n        source = 'import math\\nprint(math.sin(0), math.cos(0), math.tan(0), math.log(1), math.exp(0))'\n        self.assertEqual(run_fixture(self.forward(self.reverse(source))), run_fixture(source))\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_auxiliary_collision",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_auxiliary_collision(self):\n        code = self.reverse('ta_indice1 = 9\\nfor i in range(2):\\n    print(i)\\nprint(ta_indice1)')\n        self.assertEqual(run_fixture(self.forward(code)), '0\\n1\\n9\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_case_insensitive",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_case_insensitive(self):\n        self.assertEqual(run_fixture(self.forward('proceso Demo\\nDefinir Valor Como Entero\\nVALOR <- 3\\nescribir valor\\nfinproceso')), '3\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_completed_counter_assignment",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_completed_counter_assignment(self):\n        source = p('Definir i, j Como Entero\\nPara i <- 1 Hasta 1 Hacer\\nFinPara\\nPara j <- 1 Hasta 1 Hacer\\ni <- 7\\nFinPara\\nEscribir i')\n        self.assertEqual(run_fixture(self.forward(source)), '7\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_direction",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_direction(self):\n        self.assertFalse(translate('x', 'Python', 'Python').ok)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_empty",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_empty(self):\n        self.assertFalse(translate(' ').ok)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_empty_block",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_empty_block(self):\n        self.assertIn('pass', self.forward(p('Si Verdadero Entonces\\n// vacío\\nFinSi')))\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_inclusive_negative",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_inclusive_negative(self):\n        code = self.forward(p('Definir i Como Entero\\nPara i <- 5 Hasta 1 Con Paso -2 Hacer\\nEscribir i\\nFinPara'))\n        self.assertEqual(run_fixture(code), '5\\n3\\n1\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_inclusive_single",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_inclusive_single(self):\n        code = self.forward(p('Definir i Como Entero\\nPara i <- 2 Hasta 2 Hacer\\nEscribir i\\nFinPara'))\n        self.assertEqual(run_fixture(code), '2\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_inputs",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_inputs(self):\n        code = self.forward(p('Definir n Como Entero\\nDefinir r Como Real\\nDefinir s Como Cadena\\nLeer n, r, s\\nEscribir n, r, s'))\n        self.assertEqual(run_fixture(code, ['2','1.5','sí']), '21.5sí\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_io_errors",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_io_errors(self):\n        with self.assertRaises(OSError):\n            load_code('ruta_que_no_existe/prueba.py')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_line_diagnostic",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_line_diagnostic(self):\n        result = translate(p('Dimension a[3]'))\n        self.assertFalse(result.ok)\n        self.assertIn('línea 2', result.error)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_math_all",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_math_all(self):\n        code = self.forward(p('Escribir RC(9), ABS(-2), TRUNC(2.8), SEN(0), COS(0), TAN(0), LN(1), EXP(0), 2^3'))\n        self.assertEqual(run_fixture(code), '3.0220.01.00.00.01.08\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_pse_comments_and_strings",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_pse_comments_and_strings(self):\n        code = self.forward(p('Escribir \"Si Y NO <- //\" // hola'))\n        self.assertIn('# hola', code)\n        self.assertEqual(run_fixture(code), 'Si Y NO <- //\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_anidados",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_asignacion",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_comentario",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_elif",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_for_contador_mutable",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_for_limite_mutable",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_for_negativo",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_for_positivo",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_for_vacio",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_funcion",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_inputs",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_python_inputs(self):\n        code = self.reverse('a = int(input(\"n: \"))\\nb = float(input())\\nc = input()\\nprint(a, b, c)')\n        self.assertIn('Definir a Como Entero', code)\n        self.assertIn('Escribir Sin Saltar \"n: \"', code)\n        self.assertEqual(run_fixture(self.forward(code), ['2','1.5','sí']), 'n: 2 1.5 sí\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_logicos",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_matematicas",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_print_separador",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_subproceso",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_python_while",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        _, source, expected = case\n        code = self.reverse(source)\n        self.assertEqual(run_fixture(self.forward(code)), expected)\n        self.assertEqual(run_fixture(source), expected)\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_arreglo",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_cadena",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_cierre",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_condicion_numerica",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_contador_anidado",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_contador_mutado",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_doble_algoritmo",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_expresion",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_funcion_desconocida",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_lectura_logica",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_leer_contador",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_limite_real",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_paso_cero",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_paso_variable",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_retorno_no_definido",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_segun",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_sin_cierre",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_sino",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_sino_duplicado",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_tipo_asignacion",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_pse_variable_sin_definir",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_and_valores",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_argumentos",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_break",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_cadena_escape",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_clase",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_colision",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_comparacion_encadenada",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_comprension",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_division_entera",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_import",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_infinito",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_input_anidado",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_lista",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_print_archivo",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_print_final",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_range_real",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_rangocero",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_return_temprano",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_sintaxis",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_string_aritmetica",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_tipos_cambiantes",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_truthiness",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_rechazo_py_while_else",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test(self):\n        result = translate(source, origin, 'Python' if origin == 'PSeInt' else 'PSeInt')\n        self.assertFalse(result.ok, result.code)\n        self.assertEqual(result.code, '')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_repeat_multiple",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_repeat_multiple(self):\n        code = self.forward(p('Definir n Como Entero\\nRepetir\\nn <- n + 1\\nHasta Que n >= 3\\nEscribir n'))\n        self.assertEqual(run_fixture(code), '3\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_repeat_once",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_repeat_once(self):\n        code = self.forward(p('Definir n Como Entero\\nn <- 0\\nRepetir\\nn <- n + 1\\nHasta Que n = 1\\nEscribir n'))\n        self.assertEqual(run_fixture(code), '1\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_types_defaults",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_types_defaults(self):\n        code = self.forward(p('Definir n Como Entero\\nDefinir r Como Real\\nDefinir s Como Caracter\\nDefinir b Como Logico\\nEscribir n, r, s, b'))\n        self.assertEqual(run_fixture(code), '00.0False\\n')\n"
+    },
+    {
+      "nombre": "tests.test_engine.EngineTests.test_utf8_files",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_utf8_files(self):\n        with tempfile.TemporaryDirectory() as folder:\n            path = Path(folder) / 'prueba.psc'\n            save_code(path, 'Escribir \"niño, canción\"')\n            self.assertEqual(load_code(path), 'Escribir \"niño, canción\"')\n            path.write_bytes(b'\\xef\\xbb\\xbfHola')\n            self.assertEqual(load_code(path), 'Hola')\n"
+    },
+    {
+      "nombre": "tests.test_gui.GuiTests.test_error_clears_old_output",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_error_clears_old_output(self):\n        self.app.source.set(PSE_EXAMPLE)\n        self.app.do_translate()\n        self.app.source.set('Algoritmo Incompleto')\n        self.app.do_translate()\n        self.assertEqual(self.app.output.get(), '')\n        self.assertIn('Sintaxis', self.app.messages.get('1.0', 'end'))\n"
+    },
+    {
+      "nombre": "tests.test_gui.GuiTests.test_example_help_clear",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_example_help_clear(self):\n        self.app.example()\n        self.assertEqual(self.app.source.get(), PSE_EXAMPLE)\n        self.app.help()\n        self.root.update()\n        with patch('gui.messagebox.askyesno', return_value=True):\n            self.app.clear()\n        self.assertEqual(self.app.source.get(), '')\n"
+    },
+    {
+      "nombre": "tests.test_gui.GuiTests.test_load_save_copy",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_load_save_copy(self):\n        with tempfile.TemporaryDirectory() as directory:\n            source, output = Path(directory)/'entrada.psc', Path(directory)/'salida.py'\n            source.write_text(PSE_EXAMPLE, encoding='utf-8')\n            with patch('gui.filedialog.askopenfilename', return_value=str(source)):\n                self.app.load()\n            self.app.do_translate()\n            with patch('gui.filedialog.asksaveasfilename', return_value=str(output)) as dialog:\n                self.app.save()\n                self.assertTrue(dialog.call_args.kwargs['confirmoverwrite'])\n            self.assertEqual(output.read_text(encoding='utf-8'), self.app.output.get())\n            self.app.copy()\n            self.assertEqual(self.root.clipboard_get(), self.app.output.get())\n"
+    },
+    {
+      "nombre": "tests.test_gui.GuiTests.test_read_write_errors",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_read_write_errors(self):\n        with patch('gui.filedialog.askopenfilename', return_value='missing.psc'):\n            self.app.load()\n        self.assertIn('Error al abrir', self.app.messages.get('1.0', 'end'))\n        self.app.source.set(PSE_EXAMPLE)\n        self.app.do_translate()\n        with patch('gui.filedialog.asksaveasfilename', return_value='missing/folder/out.py'):\n            self.app.save()\n        self.assertIn('Error al guardar', self.app.messages.get('1.0', 'end'))\n"
+    },
+    {
+      "nombre": "tests.test_gui.GuiTests.test_window_and_translation_both_ways",
+      "estado": "APROBADO",
+      "resultado_obtenido": "Todas las aserciones del caso se cumplieron.",
+      "codigo_y_resultado_esperado": "    def test_window_and_translation_both_ways(self):\n        self.app.source.set(PSE_EXAMPLE)\n        self.app.do_translate()\n        self.assertIn('float(input())', self.app.output.get())\n        self.app.origin.set('Python')\n        self.app.change_direction(True)\n        self.assertEqual(self.app.destination.get(), 'PSeInt')\n        self.app.source.set(PY_EXAMPLE)\n        self.app.do_translate()\n        self.assertIn('Leer a', self.app.output.get())\n"
+    }
+  ],
+  "traducciones": [
+    {
+      "nombre": "01_hola_mundo",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nEscribir \"Hola mundo\"\nFinAlgoritmo\n",
+      "datos": [],
+      "salida_esperada": "Hola mundo\n",
+      "salida_obtenida": "Hola mundo\n",
+      "codigo_generado": "import math\n\nprint('Hola mundo', sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "02_suma",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir a, b Como Entero\nLeer a, b\nEscribir a + b\nFinAlgoritmo\n",
+      "datos": [
+        "4",
+        "7"
+      ],
+      "salida_esperada": "11\n",
+      "salida_obtenida": "11\n",
+      "codigo_generado": "import math\n\na = 0\nb = 0\na = int(input())\nb = int(input())\nprint(a + b, sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "03_promedio",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir a, b, c Como Real\nLeer a, b, c\nEscribir (a + b + c) / 3\nFinAlgoritmo\n",
+      "datos": [
+        "3",
+        "4",
+        "5"
+      ],
+      "salida_esperada": "4.0\n",
+      "salida_obtenida": "4.0\n",
+      "codigo_generado": "import math\n\na = 0.0\nb = 0.0\nc = 0.0\na = float(input())\nb = float(input())\nc = float(input())\nprint((a + b + c) / 3, sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "04_par_impar",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir n Como Entero\nLeer n\nSi n MOD 2 = 0 Entonces\nEscribir \"Par\"\nSiNo\nEscribir \"Impar\"\nFinSi\nFinAlgoritmo\n",
+      "datos": [
+        "7"
+      ],
+      "salida_esperada": "Impar\n",
+      "salida_obtenida": "Impar\n",
+      "codigo_generado": "import math\n\nn = 0\nn = int(input())\nif n % 2 == 0:\n    print('Par', sep='', end='\\n')\nelse:\n    print('Impar', sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "05_mayor",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir a, b Como Entero\nLeer a, b\nSi a > b Entonces\nEscribir a\nSiNo\nEscribir b\nFinSi\nFinAlgoritmo\n",
+      "datos": [
+        "9",
+        "2"
+      ],
+      "salida_esperada": "9\n",
+      "salida_obtenida": "9\n",
+      "codigo_generado": "import math\n\na = 0\nb = 0\na = int(input())\nb = int(input())\nif a > b:\n    print(a, sep='', end='\\n')\nelse:\n    print(b, sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "06_alternativas",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir n Como Entero\nLeer n\nSi n > 0 Entonces\nEscribir \"Positivo\"\nSiNo\nSi n < 0 Entonces\nEscribir \"Negativo\"\nSiNo\nEscribir \"Cero\"\nFinSi\nFinSi\nFinAlgoritmo\n",
+      "datos": [
+        "0"
+      ],
+      "salida_esperada": "Cero\n",
+      "salida_obtenida": "Cero\n",
+      "codigo_generado": "import math\n\nn = 0\nn = int(input())\nif n > 0:\n    print('Positivo', sep='', end='\\n')\nelse:\n    if n < 0:\n        print('Negativo', sep='', end='\\n')\n    else:\n        print('Cero', sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "07_tabla",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i Como Entero\nPara i <- 1 Hasta 3 Hacer\nEscribir \"5 x \", i, \" = \", 5 * i\nFinPara\nFinAlgoritmo\n",
+      "datos": [],
+      "salida_esperada": "5 x 1 = 5\n5 x 2 = 10\n5 x 3 = 15\n",
+      "salida_obtenida": "5 x 1 = 5\n5 x 2 = 10\n5 x 3 = 15\n",
+      "codigo_generado": "import math\n\ni = 0\nfor i in range(1, (3) + 1, 1):\n    print('5 x ', i, ' = ', 5 * i, sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "08_suma_ciclo",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i, total Como Entero\ntotal <- 0\nPara i <- 1 Hasta 5 Hacer\ntotal <- total + i\nFinPara\nEscribir total\nFinAlgoritmo\n",
+      "datos": [],
+      "salida_esperada": "15\n",
+      "salida_obtenida": "15\n",
+      "codigo_generado": "import math\n\ni = 0\ntotal = 0\ntotal = 0\nfor i in range(1, (5) + 1, 1):\n    total = total + i\nprint(total, sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "09_factorial",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir n, resultado Como Entero\nn <- 5\nresultado <- 1\nMientras n > 1 Hacer\nresultado <- resultado * n\nn <- n - 1\nFinMientras\nEscribir resultado\nFinAlgoritmo\n",
+      "datos": [],
+      "salida_esperada": "120\n",
+      "salida_obtenida": "120\n",
+      "codigo_generado": "import math\n\nn = 0\nresultado = 0\nn = 5\nresultado = 1\nwhile n > 1:\n    resultado = resultado * n\n    n = n - 1\nprint(resultado, sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "10_funcion",
+      "origen": "PSeInt",
+      "entrada": "Funcion r <- Doble(x)\nDefinir r Como Real\nr <- x * 2\nFinFuncion\nAlgoritmo Ejemplo\nEscribir Doble(4)\nFinAlgoritmo\n",
+      "datos": [],
+      "salida_esperada": "8\n",
+      "salida_obtenida": "8\n",
+      "codigo_generado": "import math\n\ndef Doble(x):\n    r = 0.0\n    r = x * 2\n    return r\nprint(Doble(4), sep='', end='\\n')\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "asignacion",
+      "origen": "Python",
+      "entrada": "x = 2\nprint(x + 3)",
+      "salida_esperada": "5\n",
+      "salida_obtenida": "5\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir x Como Entero\n    x <- 2\n    Escribir (x + 3)\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "print_separador",
+      "origen": "Python",
+      "entrada": "print(\"a\", \"b\", sep=\"-\", end=\"\")",
+      "salida_esperada": "a-b",
+      "salida_obtenida": "a-b",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Escribir Sin Saltar \"a\", \"-\", \"b\"\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "elif",
+      "origen": "Python",
+      "entrada": "n = 0\nif n > 0:\n    print(\"positivo\")\nelif n < 0:\n    print(\"negativo\")\nelse:\n    print(\"cero\")",
+      "salida_esperada": "cero\n",
+      "salida_obtenida": "cero\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir n Como Entero\n    n <- 0\n    Si (n > 0) Entonces\n        Escribir \"positivo\"\n    SiNo\n        Si (n < 0) Entonces\n            Escribir \"negativo\"\n        SiNo\n            Escribir \"cero\"\n        FinSi\n    FinSi\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "while",
+      "origen": "Python",
+      "entrada": "n = 3\nwhile n > 0:\n    print(n)\n    n -= 1",
+      "salida_esperada": "3\n2\n1\n",
+      "salida_obtenida": "3\n2\n1\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir n Como Entero\n    n <- 3\n    Mientras (n > 0) Hacer\n        Escribir n\n        n <- (n - 1)\n    FinMientras\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "for_positivo",
+      "origen": "Python",
+      "entrada": "for i in range(1, 6, 2):\n    print(i)",
+      "salida_esperada": "1\n3\n5\n",
+      "salida_obtenida": "1\n3\n5\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir i, ta_indice1, ta_limite1 Como Entero\n    ta_indice1 <- 1\n    ta_limite1 <- 6\n    Mientras ta_indice1 < ta_limite1 Hacer\n        i <- ta_indice1\n        Escribir i\n        ta_indice1 <- ta_indice1 + (2)\n    FinMientras\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "for_negativo",
+      "origen": "Python",
+      "entrada": "for i in range(5, 0, -2):\n    print(i)",
+      "salida_esperada": "5\n3\n1\n",
+      "salida_obtenida": "5\n3\n1\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir i, ta_indice1, ta_limite1 Como Entero\n    ta_indice1 <- 5\n    ta_limite1 <- 0\n    Mientras ta_indice1 > ta_limite1 Hacer\n        i <- ta_indice1\n        Escribir i\n        ta_indice1 <- ta_indice1 + (-2)\n    FinMientras\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "for_vacio",
+      "origen": "Python",
+      "entrada": "i = 8\nfor i in range(3, 1):\n    print(i)\nprint(i)",
+      "salida_esperada": "8\n",
+      "salida_obtenida": "8\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir i, ta_indice1, ta_limite1 Como Entero\n    i <- 8\n    ta_indice1 <- 3\n    ta_limite1 <- 1\n    Mientras ta_indice1 < ta_limite1 Hacer\n        i <- ta_indice1\n        Escribir i\n        ta_indice1 <- ta_indice1 + (1)\n    FinMientras\n    Escribir i\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "for_contador_mutable",
+      "origen": "Python",
+      "entrada": "for i in range(3):\n    i = 99\nprint(i)",
+      "salida_esperada": "99\n",
+      "salida_obtenida": "99\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir i, ta_indice1, ta_limite1 Como Entero\n    ta_indice1 <- 0\n    ta_limite1 <- 3\n    Mientras ta_indice1 < ta_limite1 Hacer\n        i <- ta_indice1\n        i <- 99\n        ta_indice1 <- ta_indice1 + (1)\n    FinMientras\n    Escribir i\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "for_limite_mutable",
+      "origen": "Python",
+      "entrada": "n = 3\nfor i in range(n):\n    n = 1\n    print(i)",
+      "salida_esperada": "0\n1\n2\n",
+      "salida_obtenida": "0\n1\n2\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir n, i, ta_indice1, ta_limite1 Como Entero\n    n <- 3\n    ta_indice1 <- 0\n    ta_limite1 <- n\n    Mientras ta_indice1 < ta_limite1 Hacer\n        i <- ta_indice1\n        n <- 1\n        Escribir i\n        ta_indice1 <- ta_indice1 + (1)\n    FinMientras\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "logicos",
+      "origen": "Python",
+      "entrada": "x = 2\nif x > 0 and not (x == 3):\n    print(\"bien\")",
+      "salida_esperada": "bien\n",
+      "salida_obtenida": "bien\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir x Como Entero\n    x <- 2\n    Si ((x > 0) Y (NO (x = 3))) Entonces\n        Escribir \"bien\"\n    FinSi\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "comentario",
+      "origen": "Python",
+      "entrada": "# mensaje\nprint(\"Y NO // SiNo\") # conservar",
+      "salida_esperada": "Y NO // SiNo\n",
+      "salida_obtenida": "Y NO // SiNo\n",
+      "codigo_generado": "// Python línea 1: mensaje\n// Python línea 2: conservar\nAlgoritmo ProgramaTraducido\n    Escribir \"Y NO // SiNo\"\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "funcion",
+      "origen": "Python",
+      "entrada": "def doble(x):\n    r = x * 2\n    return r\nprint(doble(4))",
+      "salida_esperada": "8\n",
+      "salida_obtenida": "8\n",
+      "codigo_generado": "SubProceso ta_resultado <- doble(x)\n    Definir r, ta_resultado Como Real\n    r <- (x * 2)\n    ta_resultado <- r\nFinSubProceso\n\nAlgoritmo ProgramaTraducido\n    Escribir doble(4)\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "subproceso",
+      "origen": "Python",
+      "entrada": "def saludar():\n    print(\"Hola\")\nsaludar()",
+      "salida_esperada": "Hola\n",
+      "salida_obtenida": "Hola\n",
+      "codigo_generado": "SubProceso saludar()\n    Escribir \"Hola\"\nFinSubProceso\n\nAlgoritmo ProgramaTraducido\n    saludar()\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "matematicas",
+      "origen": "Python",
+      "entrada": "import math\nprint(math.sqrt(9), abs(-2), math.trunc(2.8))",
+      "salida_esperada": "3.0 2 2\n",
+      "salida_obtenida": "3.0 2 2\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Escribir RC(9), \" \", abs((-2)), \" \", TRUNC(2.8)\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "anidados",
+      "origen": "Python",
+      "entrada": "for i in range(2):\n    for j in range(2):\n        if i == j:\n            print(i, j)",
+      "salida_esperada": "0 0\n1 1\n",
+      "salida_obtenida": "0 0\n1 1\n",
+      "codigo_generado": "Algoritmo ProgramaTraducido\n    Definir i, ta_indice1, ta_limite1, j, ta_indice2, ta_limite2 Como Entero\n    ta_indice1 <- 0\n    ta_limite1 <- 2\n    Mientras ta_indice1 < ta_limite1 Hacer\n        i <- ta_indice1\n        ta_indice2 <- 0\n        ta_limite2 <- 2\n        Mientras ta_indice2 < ta_limite2 Hacer\n            j <- ta_indice2\n            Si (i = j) Entonces\n                Escribir i, \" \", j\n            FinSi\n            ta_indice2 <- ta_indice2 + (1)\n        FinMientras\n        ta_indice1 <- ta_indice1 + (1)\n    FinMientras\nFinAlgoritmo\n",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_tipo_asignacion",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir n Como Entero\nn <- \"texto\"\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 3: Asignación incompatible: n es Entero, la expresión es Cadena.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_limite_real",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i Como Entero\nPara i <- 1 Hasta 2.5 Hacer\nFinPara\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 3: Los límites de Para deben ser enteros.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_condicion_numerica",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nSi 1 Entonces\nFinSi\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 2: La condición debe ser lógica; use una comparación explícita.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_leer_contador",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i Como Entero\nPara i <- 1 Hasta 3 Hacer\nLeer i\nFinPara\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 4: Leer no puede modificar un contador de Para activo.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_contador_anidado",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i Como Entero\nPara i <- 1 Hasta 3 Hacer\nPara i <- 1 Hasta 2 Hacer\nFinPara\nFinPara\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 4: Use contadores diferentes para ciclos Para anidados.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_cierre",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo A\nSi Verdadero Entonces\nFinAlgoritmo",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 3: Cierre o alternativa sin el bloque de apertura correspondiente.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_sin_cierre",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo A\nEscribir 1",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 2: Falta cerrar el bloque algoritmo iniciado en la línea 1.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_sino",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nSiNo\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 2: Cierre o alternativa sin el bloque de apertura correspondiente.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_sino_duplicado",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nSi Verdadero Entonces\nSiNo\nSiNo\nFinSi\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 4: SiNo duplicado o con texto adicional.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_paso_cero",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i Como Entero\nPara i <- 1 Hasta 3 Con Paso 0 Hacer\nFinPara\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 3: El paso no puede ser cero.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_paso_variable",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i, n Como Entero\nPara i <- 1 Hasta 3 Con Paso n Hacer\nFinPara\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 3: El paso debe ser un entero literal distinto de cero.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_variable_sin_definir",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nx <- 1\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 2: Variable 'x' sin Definir.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_expresion",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nEscribir (1 +\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 2: Paréntesis o lista de expresiones incompleta.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_cadena",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nEscribir \"hola\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 2: Símbolo o cadena no admitida cerca de '\"hola'.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_arreglo",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDimension a[3]\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 2: Símbolo o cadena no admitida cerca de '[3]'.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_segun",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nSegun n Hacer\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 2: Instrucción 'Segun' no reconocida.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_lectura_logica",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir b Como Logico\nLeer b\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 3: Leer necesita un tipo declarado Entero, Real o Cadena; no admite Logico.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_funcion_desconocida",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nEscribir sistema(1)\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 2: Función desconocida o cantidad incorrecta de argumentos: sistema.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_retorno_no_definido",
+      "origen": "PSeInt",
+      "entrada": "Funcion r <- doble(x)\nFinFuncion\nAlgoritmo Ejemplo\nEscribir 1\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 2: Variable 'r' sin Definir.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_doble_algoritmo",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nEscribir 1\nFinAlgoritmo\nAlgoritmo Ejemplo\nEscribir 2\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 4: Se permite un único algoritmo principal con nombre.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_PSeInt_contador_mutado",
+      "origen": "PSeInt",
+      "entrada": "Algoritmo Ejemplo\nDefinir i Como Entero\nPara i <- 1 Hasta 3 Hacer\ni <- 1\nFinPara\nFinAlgoritmo\n",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 4: No modifique un contador de Para dentro del ciclo.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_infinito",
+      "origen": "Python",
+      "entrada": "x = 1e999",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Use constantes numéricas finitas.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_sintaxis",
+      "origen": "Python",
+      "entrada": "if True\n print(1)",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "Sintaxis, línea 1: expected ':'",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_lista",
+      "origen": "Python",
+      "entrada": "x = [1, 2]",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Expresión List fuera del subconjunto.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_clase",
+      "origen": "Python",
+      "entrada": "class A:\n    pass",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Instrucción Python ClassDef no implementada.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_import",
+      "origen": "Python",
+      "entrada": "import os",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Instrucción Python Import no implementada.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_comprension",
+      "origen": "Python",
+      "entrada": "x = [i for i in range(2)]",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Expresión ListComp fuera del subconjunto.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_division_entera",
+      "origen": "Python",
+      "entrada": "x = 5 // 2",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Expresión BinOp fuera del subconjunto.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_break",
+      "origen": "Python",
+      "entrada": "while True:\n    break",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 2: Instrucción Python Break no implementada.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_while_else",
+      "origen": "Python",
+      "entrada": "while False:\n    pass\nelse:\n    pass",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: while ... else no está implementado.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_return_temprano",
+      "origen": "Python",
+      "entrada": "def f(x):\n    if x > 0:\n        return x\n    return 0",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Use un único return con valor al final de la función.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_argumentos",
+      "origen": "Python",
+      "entrada": "def f(x=1):\n    return x",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Funciones sin decoradores, anotaciones ni parámetros especiales.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_print_archivo",
+      "origen": "Python",
+      "entrada": "print(1, file=f)",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: print solo admite sep y end literales.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_print_final",
+      "origen": "Python",
+      "entrada": "print(1, end=\"!\")",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: print admite end='' o end='\\n'.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_input_anidado",
+      "origen": "Python",
+      "entrada": "print(input())",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Función desconocida o cantidad incorrecta de argumentos: input.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_and_valores",
+      "origen": "Python",
+      "entrada": "x = 1 and 2",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: and/or requieren valores lógicos, no selección de operandos.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_truthiness",
+      "origen": "Python",
+      "entrada": "if 1:\n    print(1)",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: La condición debe ser lógica: use, por ejemplo, n <> 0 / n != 0.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_tipos_cambiantes",
+      "origen": "Python",
+      "entrada": "x = 1\nx = \"a\"",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 2: La variable x cambia de tipo (Entero a Cadena); use otra variable.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_colision",
+      "origen": "Python",
+      "entrada": "abc = 1\nABC = 2",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 2: Colisión de nombres: PSeInt no distingue mayúsculas.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_rangocero",
+      "origen": "Python",
+      "entrada": "for i in range(1, 3, 0):\n    print(i)",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Paso de range: entero literal no nulo.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_range_real",
+      "origen": "Python",
+      "entrada": "for i in range(1.0):\n    print(i)",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Los límites de range deben ser enteros.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_cadena_escape",
+      "origen": "Python",
+      "entrada": "print(\"a\\nb\")",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Cadenas con comillas dobles, escapes o saltos de línea.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_comparacion_encadenada",
+      "origen": "Python",
+      "entrada": "x = 1 < 2 < 3",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Separe las comparaciones encadenadas usando Y/and.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    },
+    {
+      "nombre": "rechazo_Python_string_aritmetica",
+      "origen": "Python",
+      "entrada": "x = \"a\" * 3",
+      "salida_esperada": "Diagnóstico y código de salida vacío",
+      "salida_obtenida": "No compatible, línea 1: Operaciones aritméticas solo sobre números; no se traduce concatenación ni repetición de cadenas.",
+      "codigo_generado": "",
+      "estado": "APROBADO"
+    }
+  ]
+}

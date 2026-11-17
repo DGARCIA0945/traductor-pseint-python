@@ -1,0 +1,15 @@
+{
+  "caso": "03_ciclo_mientras",
+  "plantilla": "Mientras",
+  "origen": "PSeInt",
+  "destino": "Python",
+  "salida_esperada": "1\n2\n3\n4\n5\n",
+  "salida_observada": "1\n2\n3\n4\n5\n",
+  "coincide": true,
+  "advertencias": [
+    "Revise tipos, dominios numéricos y formato de salida. Se valida el subconjunto, no la corrección total del algoritmo; consulte la guía."
+  ],
+  "sha256_entrada": "3bc630a440f17870a8508d14efefaeb0695376bbade1a6569b0851db1122a95f",
+  "sha256_traducido": "144414a428881e272598627917f413d10b52e5116e74141decbb663f28d14a56",
+  "captura": "interfaz.png"
+}

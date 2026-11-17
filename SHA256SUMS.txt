@@ -1,0 +1,2 @@
+ce80d78aab2ef063d56bb7e6168ddc0d700d32e852cd59db827c84e9428bdb73  dist/TraductorAcademico.exe
+63998eaa35e0d38e7b1cadb18ba91879f791c9af3789875ceee8a1fbf51178c7  docs/Guia_de_usuario.pdf

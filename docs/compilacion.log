@@ -1,0 +1,66 @@
+284 INFO: PyInstaller: 6.16.0, contrib hooks: 2026.9
+284 INFO: Python: 3.12.14
+330 INFO: Platform: Windows-11-10.0.26200-SP0
+330 INFO: Python environment: C:\Users\USER\.cache\codex-runtimes\codex-primary-runtime\dependencies\python
+331 INFO: wrote ../../work\TraductorAcademico.spec
+337 INFO: Removing temporary files and cleaning cache in C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\work\pyinstaller
+387 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\outputs\\TraductorAcademico',
+ 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps',
+ 'C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.zip',
+ 'C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs',
+ 'C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib',
+ 'C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python',
+ 'C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages',
+ 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\outputs\\TraductorAcademico']
+998 INFO: Appending 'datas' from .spec
+999 INFO: checking Analysis
+999 INFO: Building Analysis because Analysis-00.toc is non existent
+999 INFO: Looking for Python shared library...
+999 INFO: Using Python shared library: C:\Users\USER\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python312.dll
+999 INFO: Running Analysis Analysis-00.toc
+999 INFO: Target bytecode optimization level: 0
+999 INFO: Initializing module dependency graph...
+1001 INFO: Initializing module graph hook caches...
+1020 INFO: Analyzing modules for base_library.zip ...
+2292 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks'
+4697 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks'
+6227 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks'
+6833 INFO: Caching module dependency graph...
+6892 INFO: Analyzing C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\outputs\TraductorAcademico\main.py
+6925 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks\\pre_find_module_path'
+6927 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+7266 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks'
+7440 INFO: Processing module hooks (post-graph stage)...
+7446 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks'
+7457 INFO: Performing binary vs. data reclassification (930 entries)
+7720 INFO: Looking for ctypes DLLs
+7727 INFO: Analyzing run-time hooks ...
+7729 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks\\rthooks'
+7732 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\USER\\Documents\\Codex\\2026-10-27\\files-pasted-by-the-user-prompt\\work\\build_deps\\PyInstaller\\hooks\\rthooks'
+7775 INFO: Creating base_library.zip...
+7808 INFO: Looking for dynamic libraries
+8027 INFO: Extra DLL search directories (AddDllDirectory): []
+8027 INFO: Extra DLL search directories (PATH): []
+8602 INFO: Warnings written to C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\work\final-build\TraductorAcademico\warn-TraductorAcademico.txt
+8621 INFO: Graph cross-reference written to C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\work\final-build\TraductorAcademico\xref-TraductorAcademico.html
+8662 INFO: checking PYZ
+8662 INFO: Building PYZ because PYZ-00.toc is non existent
+8662 INFO: Building PYZ (ZlibArchive) C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\work\final-build\TraductorAcademico\PYZ-00.pyz
+8816 INFO: Building PYZ (ZlibArchive) C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\work\final-build\TraductorAcademico\PYZ-00.pyz completed successfully.
+8840 INFO: checking PKG
+8841 INFO: Building PKG because PKG-00.toc is non existent
+8841 INFO: Building PKG (CArchive) TraductorAcademico.pkg
+13120 INFO: Building PKG (CArchive) TraductorAcademico.pkg completed successfully.
+13135 INFO: Bootloader C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\work\build_deps\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+13135 INFO: checking EXE
+13136 INFO: Building EXE because EXE-00.toc is non existent
+13136 INFO: Building EXE from EXE-00.toc
+13139 INFO: Copying bootloader EXE to C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\outputs\TraductorAcademico\dist\TraductorAcademico.exe
+13240 INFO: Copying icon to EXE
+13312 INFO: Copying 0 resources to EXE
+13313 INFO: Embedding manifest in EXE
+13372 INFO: Appending PKG archive to EXE
+13459 INFO: Fixing EXE headers
+13817 INFO: Building EXE from EXE-00.toc completed successfully.
+13832 INFO: Build complete! The results are available in: C:\Users\USER\Documents\Codex\2026-10-27\files-pasted-by-the-user-prompt\outputs\TraductorAcademico\dist

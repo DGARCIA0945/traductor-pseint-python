@@ -1,0 +1,2 @@
+# Ejecución y pruebas: únicamente biblioteca estándar de Python 3.10 o posterior.
+# Para empaquetar, instale requirements-build.txt.

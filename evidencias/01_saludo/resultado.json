@@ -1,0 +1,15 @@
+{
+  "caso": "01_saludo",
+  "plantilla": "Hola mundo",
+  "origen": "PSeInt",
+  "destino": "Python",
+  "salida_esperada": "Hola, mundo\n",
+  "salida_observada": "Hola, mundo\n",
+  "coincide": true,
+  "advertencias": [
+    "Revise tipos, dominios numéricos y formato de salida. Se valida el subconjunto, no la corrección total del algoritmo; consulte la guía."
+  ],
+  "sha256_entrada": "5034c3fd74db6f9e6f1c81c3e691f2b8f1c990c17e0b19a85017c92badf64b86",
+  "sha256_traducido": "26e016f9bb497879c3bd9660846a143ff4ec6ceb4adf4806663e6955054ebee2",
+  "captura": "interfaz.png"
+}

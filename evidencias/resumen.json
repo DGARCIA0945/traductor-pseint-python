@@ -1,0 +1,53 @@
+{
+  "fecha_utc": "2026-11-17T17:06:38.637742+00:00",
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26300-SP0",
+  "casos": [
+    {
+      "caso": "01_saludo",
+      "plantilla": "Hola mundo",
+      "origen": "PSeInt",
+      "destino": "Python",
+      "salida_esperada": "Hola, mundo\n",
+      "salida_observada": "Hola, mundo\n",
+      "coincide": true,
+      "advertencias": [
+        "Revise tipos, dominios numéricos y formato de salida. Se valida el subconjunto, no la corrección total del algoritmo; consulte la guía."
+      ],
+      "sha256_entrada": "5034c3fd74db6f9e6f1c81c3e691f2b8f1c990c17e0b19a85017c92badf64b86",
+      "sha256_traducido": "26e016f9bb497879c3bd9660846a143ff4ec6ceb4adf4806663e6955054ebee2",
+      "captura": "interfaz.png"
+    },
+    {
+      "caso": "02_condicional",
+      "plantilla": "Si / Entonces",
+      "origen": "PSeInt",
+      "destino": "Python",
+      "salida_esperada": "Mayor de edad\n",
+      "salida_observada": "Mayor de edad\n",
+      "coincide": true,
+      "advertencias": [
+        "Revise tipos, dominios numéricos y formato de salida. Se valida el subconjunto, no la corrección total del algoritmo; consulte la guía."
+      ],
+      "sha256_entrada": "a243c85e812bee771746a0a11292e0a67d275a9d9157d9833f65f0410cce943c",
+      "sha256_traducido": "4d260a39d2c1ae751eb48465e6c5e15d86d06e0a6ccc80ccbe360673fe596680",
+      "captura": "interfaz.png"
+    },
+    {
+      "caso": "03_ciclo_mientras",
+      "plantilla": "Mientras",
+      "origen": "PSeInt",
+      "destino": "Python",
+      "salida_esperada": "1\n2\n3\n4\n5\n",
+      "salida_observada": "1\n2\n3\n4\n5\n",
+      "coincide": true,
+      "advertencias": [
+        "Revise tipos, dominios numéricos y formato de salida. Se valida el subconjunto, no la corrección total del algoritmo; consulte la guía."
+      ],
+      "sha256_entrada": "3bc630a440f17870a8508d14efefaeb0695376bbade1a6569b0851db1122a95f",
+      "sha256_traducido": "144414a428881e272598627917f413d10b52e5116e74141decbb663f28d14a56",
+      "captura": "interfaz.png"
+    }
+  ],
+  "alcance": "Ejecución de Python generado para tres fixtures propios; no certifica el intérprete oficial de PSeInt."
+}

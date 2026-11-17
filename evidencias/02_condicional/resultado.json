@@ -1,0 +1,15 @@
+{
+  "caso": "02_condicional",
+  "plantilla": "Si / Entonces",
+  "origen": "PSeInt",
+  "destino": "Python",
+  "salida_esperada": "Mayor de edad\n",
+  "salida_observada": "Mayor de edad\n",
+  "coincide": true,
+  "advertencias": [
+    "Revise tipos, dominios numéricos y formato de salida. Se valida el subconjunto, no la corrección total del algoritmo; consulte la guía."
+  ],
+  "sha256_entrada": "a243c85e812bee771746a0a11292e0a67d275a9d9157d9833f65f0410cce943c",
+  "sha256_traducido": "4d260a39d2c1ae751eb48465e6c5e15d86d06e0a6ccc80ccbe360673fe596680",
+  "captura": "interfaz.png"
+}
